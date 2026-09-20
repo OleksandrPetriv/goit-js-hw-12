@@ -32,3 +32,52 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-left: 10px;
+}
+
+.gallery-image {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+.gallery-item {
+  flex-basis: 260px;
+  border: 1px solid black;
+  border-radius: 5;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-block: 20px;
+}
+
+.form input,
+.form button {
+  padding: 5px 10px;
+}
+
+.info {
+  display: flex;
+  font-size: 14px;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-title {
+  font-weight: 700;
+}
