@@ -16,10 +16,8 @@ import {
 const PER_PAGE = 15;
 const loadMore = document.querySelector(".loadMore");
 const form = document.querySelector(".form");
-
 let query = "";
 let page = 1;
-
 function updateLoadMore(totalHits) {
     const totalPages = Math.ceil(totalHits / PER_PAGE);
     if (page >= totalPages) {
